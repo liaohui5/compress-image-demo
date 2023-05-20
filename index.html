@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <title>image comporess</title>
+    <style>
+      #app {
+        width: 1000px;
+        min-height: 100px;
+        margin: 20px auto;
+      }
+
+      #app img {
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <input type="file" id="file" />
+    <div id="app">
+      <div class="original"></div>
+      <div class="compressed"></div>
+    </div>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
